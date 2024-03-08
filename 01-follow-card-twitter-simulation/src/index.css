@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #000;
+  font-family: system-ui, sans-serif;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  padding-block: 1rem;
+  background-color: #222;
+  border-radius: 1rem;
+}
+
+.app-title {
+  margin: 0;
+  padding-left: 1rem;
+  padding-bottom: 0.75rem;
+  color: #fff;
+  font-weight: bold;
+}
